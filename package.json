@@ -1,0 +1,20 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Rodando o Javascript no servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "CabralSJM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-file-upload": "^5.0.8",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15"
+  }
+}
