@@ -30,6 +30,23 @@
         },
         "delivery_method": "Moto",
         "CNH": "cnh-digital.jpg"
+    },
+
+    "emailinvalido": {
+        "name": "CabralSJM",
+        "CPF": "12469752035",
+        "email": "testeteste.com",
+        "whatsapp": "21993585789",
+        "adsress": {
+            "postalcode": "28495970",
+            "street": "Rua Mathias Ferreira da Silva",
+            "number": "71",
+            "details": "Lojas 1 e 2",
+            "district": "Centro",
+            "city_state": "Aperibé/RJ"
+        },
+        "delivery_method": "Moto",
+        "CNH": "cnh-digital.jpg"
     }
 
 }

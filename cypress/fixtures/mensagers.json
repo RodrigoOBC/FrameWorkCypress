@@ -1,5 +1,14 @@
 {
     "signup": "Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.",
-    "cpfinvalido": "Oops! CPF inválido"  
+    "cpfinvalido": "Oops! CPF inválido"  ,
+    "emailinvalido": "Oops! Email com formato inválido." ,
+    "camposobrigatorios":{
+        "nome":"É necessário informar o nome",
+        "email":"É necessário informar o email",
+        "cpf":"É necessário informar o CPF",
+        "cep":"É necessário informar o CEP",
+        "adress":"É necessário informar o número do endereço",
+        "metodo":"Selecione o método de entrega"
+    }
 
 }
