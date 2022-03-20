@@ -8,7 +8,7 @@ class SignupPage{
     }
 
     fillForm(deliver){
-        cy.get('input[name="name"]').type(deliver.name)
+        cy.get('input[name="fullName"]').type(deliver.name)
         cy.get('input[name="cpf"]').type(deliver.CPF)
         cy.get('input[name="email"]').type(deliver.email)
         cy.get('input[name="whatsapp"]').type(deliver.whatsapp)
@@ -38,7 +38,7 @@ class SignupPage{
     }
 
     alertMesagerShouldBe(mensager){
-        cy.get('.alert-error').should('have.text',mensager)
+        cy.contains('.alert-error',mensager).should('be.visible')
     }
 }
 
